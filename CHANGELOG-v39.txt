@@ -1,0 +1,1 @@
+V39: question navigation marks answered questions and announces state; warn before submitting unanswered questions while time remains; auto-submit on expiry; live writing word counter; guard malformed draft stores; offline cache version update.

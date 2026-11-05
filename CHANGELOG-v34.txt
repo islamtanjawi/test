@@ -1,0 +1,1 @@
+V34: fix reflexive placement for single-word and separable forms; correct regular -eln conjugation; include reflexive pronoun in Perfekt display; count only valid completed days; update offline cache.

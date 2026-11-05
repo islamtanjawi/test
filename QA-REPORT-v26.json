@@ -1,0 +1,13 @@
+{
+  "version": "V26",
+  "js_syntax_passed": 16,
+  "html_pages": 10,
+  "missing_local_references": [],
+  "browser_e2e": "not completed (environment blocks local navigation)",
+  "changes": [
+    "coach review choices use word original level",
+    "malformed review entries repaired when adding",
+    "daily task history filtered",
+    "progress page links to next steps"
+  ]
+}

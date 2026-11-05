@@ -1,0 +1,4 @@
+coach review choices use word original level
+malformed review entries repaired when adding
+daily task history filtered
+progress page links to next steps

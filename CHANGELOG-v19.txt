@@ -1,0 +1,8 @@
+V19 — multiple stages
+1. Coach placement quiz now samples four verbs from each of A1, A2 and B1 (previously all twelve came from the selected level).
+2. Coach placement results show a separate vocabulary score for each level; this is not an official language placement assessment.
+3. Quiz choices are shuffled with Fisher-Yates, replacing biased array.sort randomization.
+4. Coach ignores malformed saved review entries instead of crashing.
+5. Progress lesson completion now counts only boolean true values, rather than arbitrary truthy saved values.
+6. Static JavaScript syntax checks and data integrity tests performed. Browser automation remains unverified.
+Existing localStorage keys, lessons, and URLs are preserved.

@@ -1,0 +1,1 @@
+V37: Guard invalid conjugation day, level and verb navigation; prevent quiz next without answering; show reflexive pronoun in Präteritum examples; validate Goethe answer indices and navigation and protect against malformed saved exam store; update offline cache.

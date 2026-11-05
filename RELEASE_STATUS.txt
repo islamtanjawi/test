@@ -1,0 +1,7 @@
+German Academy release 13 — development build, NOT a verified official Goethe preparation product.
+
+Changes: Expanded original reading/listening question banks from 4 to 12 per level; retained old indices for historical mistake records. Dynamic scoring, navigation and time limit (35 minutes). Fixed text report newline and unanswered-question display. Improved prefix irregular conjugation, mobile layout, keyboard focus and reduced-motion support.
+
+Important limitations: browser TTS is not authentic Goethe audio; 1,350 verb entries are NOT 1,350 independently validated conjugations; writing and speaking require human assessment. Progress is stored locally, with manual export/import available. Full cross-device browser testing and independent linguistic review are still needed.
+
+Do not delete localStorage or overwrite existing user progress.

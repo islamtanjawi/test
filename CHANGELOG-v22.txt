@@ -1,0 +1,8 @@
+V22 — Goethe timer continuity
+1. Exam draft stores remaining time alongside choices and writing/speaking.
+2. Resuming a saved draft restores its remaining time rather than granting a fresh 35 minutes.
+3. Existing V21 drafts without timer data remain compatible (start at 35 minutes).
+4. Remaining time is validated and bounded to 0–2100 seconds.
+5. User-facing timer/exit descriptions now match actual behavior.
+6. Offline service worker cache version refreshed.
+Note: The timer pauses while the page is closed; this is a practice exam, not a secure proctored test.

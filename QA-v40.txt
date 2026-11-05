@@ -1,0 +1,6 @@
+Goethe V40 QA summary
+- 16 JavaScript files: Node syntax check PASS.
+- HTML local asset references: PASS (no missing relative files).
+- In-memory Chromium browser interactions (using localStorage mock, NOT real HTTP/PWA): PASS for A1/A2/B1 start/finish; chosen answer; writing word counter; speaking/writing draft resume; historical report opening; question snapshots; self-evaluation persistence; bank-change draft migration; zero-time auto-finish; old mistake marked reviewed on correct later attempt.
+- Chromium small-screen overflow checks (360px, 390px, 768px, 1280px) PASS with CSS loaded in memory.
+- Not tested: full website deployment, real service worker over HTTPS, device voices/real audio, cross-page interactions on a deployed URL, external links, full linguistic audit.

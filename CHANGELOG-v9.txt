@@ -1,0 +1,1 @@
+V9: Goethe exam mistakes now store answer options and correct answer index. Review page supports retrying missed multiple-choice questions and marks correctly retried questions reviewed. Older error records without options remain readable. Existing localStorage keys unchanged. Syntax and ZIP integrity checked; browser interaction not yet verified.

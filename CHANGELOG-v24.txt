@@ -1,0 +1,7 @@
+V24 — medium-size reliability fixes
+1. Prevent double submissions in coach quizzes (score and spaced-review state can no longer be counted twice before Next).
+2. Ignore invalid answer indices.
+3. Reject malformed due-date entries and malformed review state safely.
+4. Validate all backup JSON records before import, including records whose keys already exist, matching preview validation.
+5. Update offline cache version.
+No previous lesson, localStorage key, or page was intentionally removed.

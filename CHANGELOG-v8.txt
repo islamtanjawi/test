@@ -1,0 +1,1 @@
+V8: Goethe exam mistakes now saved separately in deutsch-exam-errors-v1; added exam-review.html with A1/A2/B1 filters and reviewed status. Existing progress keys retained. Browser end-to-end testing still pending.

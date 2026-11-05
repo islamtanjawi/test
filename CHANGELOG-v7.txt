@@ -1,0 +1,7 @@
+V7 — 2026-11-05
+- Added review.html and review.js: review of incorrectly answered conjugation verbs, search, pending/completed filter, German speech, trusted conjugation reference links, independent reviewed flag.
+- Kept all prior localStorage keys unchanged and used deutsch-review-v1 for review flags.
+- Added navigation to review page and offline PWA caching.
+- Added responsive styling for review on mobile.
+- Scope: conjugation mistakes only; Goethe exam mistakes are not yet included. No claim of linguistic verification of 1,350 verbs.
+- JavaScript syntax and ZIP archive checked; full browser testing remains outstanding.

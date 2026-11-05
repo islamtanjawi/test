@@ -1,0 +1,11 @@
+V40 — Goethe results and review reliability
+- Persist an immutable question snapshot alongside each completed exam for accurate future reports even after question-bank updates.
+- Add history detail buttons to reopen completed exam reports, including prior writing and speaking notes.
+- Mark previously missed questions reviewed when subsequently answered correctly.
+- Adapt draft resume position after question-bank expansion.
+- Block new responses when time expires even when timer callbacks are throttled.
+- Add a direct link to practice missed questions.
+- Harden report totals and result date display for malformed legacy records.
+- Refresh offline cache.
+Tests: see QA-v40.json, and browser-interaction check script on generation workspace.
+- Show selections neutrally (not green "correct") until grading; improve aria-pressed and label browser-generated speech accurately.

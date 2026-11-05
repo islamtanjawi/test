@@ -1,0 +1,1 @@
+V10: Added read-only progress dashboard for conjugation days, coach sessions, exam attempts, and mistake review. Preserves all existing localStorage keys. Browser interaction testing remains pending.

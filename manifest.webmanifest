@@ -1,0 +1,20 @@
+{
+  "name": "مدرّبي الألماني | أكاديمية A1–B1",
+  "short_name": "الألمانية",
+  "description": "تعلم الألمانية خطوة بخطوة",
+  "lang": "ar",
+  "dir": "rtl",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f3f6f5",
+  "theme_color": "#0f766e",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "version": "V25",
+  "javascript_syntax_passed": 16,
+  "html_pages": 10,
+  "missing_local_references": 0,
+  "browser_e2e": "not run",
+  "linguistic_review_1350_verbs": "pending",
+  "goethe_full_exam": "pending"
+}

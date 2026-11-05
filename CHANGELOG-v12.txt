@@ -1,0 +1,1 @@
+V12: Goethe writing/speaking drafts saved locally on navigation and restored on next test; draft cleared only on finishing; objective exam report with corrections can be exported as TXT. All existing progress keys preserved. End-to-end browser tests remain pending.

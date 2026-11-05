@@ -1,0 +1,6 @@
+V18 — four stages in one session
+1. Lesson completion A1/A2/B1 shown in progress dashboard and CSV.
+2. Backup import file preview: existing and new key counts, without modifying data.
+3. Exit confirmation for unfinished Goethe tests, with transparent note about answer persistence.
+4. Keyboard focus visibility and small-screen navigation improvements.
+5. Service worker cache revision.

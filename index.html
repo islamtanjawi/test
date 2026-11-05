@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<script>try{var t=JSON.parse(localStorage.getItem("deutsch-ui")).theme;if(t)document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0f766e">
+<meta name="description" content="منصة شخصية لتعلّم الألمانية من A1 إلى B1 مع كلمات يومية واختبارات ومراجعة ذكية.">
+<title>مدرّبي الألماني | A1 – B1</title>
+<link rel="stylesheet" href="style.css">
+<link rel="manifest" href="manifest.webmanifest"><link rel="icon" href="icon.svg" type="image/svg+xml"></head>
+<body>
+<header>
+  <div class="brand"><span class="brand-icon">DE</span><div><h1>مدرّبي الألماني <small>A1 – B1</small></h1><p>خطوة صغيرة كل يوم تصنع فرقاً كبيراً.</p></div></div>
+  <div class="top-stats"><span id="stat"></span><span id="streak" class="streak"></span></div>
+</header>
+<nav id="months" aria-label="المستويات"><a href="review.html">🧠 مراجعة الأخطاء</a><a href="exam-review.html">📘 أخطاء Goethe</a></nav>
+<main>
+  <section id="head"></section>
+  <section id="dashboard" class="dashboard"></section>
+  <div class="tabs" role="tablist" aria-label="أقسام التعلم">
+    <a class="tab-link" href="lessons.html">🎓 الدروس المستقلة</a>
+    <a class="tab-link" href="exam.html">📝 Goethe A1–B1</a><a class="tab-link" href="coach.html">🧭 المدرب الشخصي</a>
+    <a class="tab-link" href="conjugation.html">🔤 الصرف والتحويل</a>
+    <a class="tab-link" href="progress.html">📈 تقدمي</a><a class="tab-link" href="backup.html">💾 نسخ التقدم</a>
+    <a class="tab-link" href="practice.html">🎧 الاستماع والتحدث</a>
+    <button data-tab="words" class="on" role="tab">📚 كلمات اليوم</button>
+    <button data-tab="sent" role="tab">💬 جمل شائعة</button>
+    <button data-tab="quiz" role="tab">🧠 اختبر نفسك</button>
+    <button data-tab="review" role="tab">🔁 مراجعة الأخطاء <span id="review-count" class="count">0</span></button>
+  </div>
+  <section id="days" aria-label="أيام التعلم"></section>
+  <section id="view" aria-live="polite"></section>
+</main>
+<footer>تعلّم بهدوء، وراجع باستمرار، ولا تقلق من الأخطاء. 🇩🇪</footer>
+<script src="data.js"></script>
+<script src="data-m3.js"></script>
+<script src="ui.js"></script>
+<script src="app.js"></script>
+<script src="pwa.js"></script></body>
+</html>

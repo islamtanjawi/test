@@ -1,0 +1,1 @@
+V35: save conjugation completion on final answer, not after results navigation; guard saved completion; strict unlock progress; validate stored progress objects; verified common separable forms; restrict service worker caching to project scope.

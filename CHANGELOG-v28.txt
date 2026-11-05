@@ -1,0 +1,1 @@
+V28: placement results show a separate A1/A2/B1 score card; disable quiz choices on submission; validate legacy session-history score and total; clamp displayed historic scores; update offline cache. Original lessons and localStorage keys unchanged.

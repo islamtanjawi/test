@@ -1,0 +1,1 @@
+V27: fixed coach daily-plan validation regex; normalized legacy plan records; tightened due-review entry validation; ensured unique answer choices; validated quiz choice indices; refreshed offline cache.

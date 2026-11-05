@@ -1,0 +1,1 @@
+V33: guarded separable-prefix inference to avoid false conjugations; added 12 explicitly checked present-tense paradigms; clarified quiz completion persistence; updated offline cache.

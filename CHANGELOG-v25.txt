@@ -1,0 +1,1 @@
+V25: Validate imported coach state; reject invalid calendar dates in spaced-repetition due list; clear active quiz on level change; correct quiz feedback wording; scope offline navigation fallback to the academy path; run automated syntax and static checks. No existing user progress is overwritten.

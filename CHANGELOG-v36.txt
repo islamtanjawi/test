@@ -1,0 +1,1 @@
+V36: 17 high-frequency verbs with explicit Präsens tables; clearer labels for entries rather than unique verbs; label heuristic conjugations; refresh offline cache.

@@ -1,0 +1,1 @@
+V16: Goethe report now separates Lesen and Hören, counts unanswered questions, fixes self-assessment status in history, and adds missed/blank count to progress. Static checks only; browser testing pending.

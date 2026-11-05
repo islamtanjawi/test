@@ -1,0 +1,9 @@
+V21 — multiple small/medium fixes
+1. Goethe multiple-choice answers and current question are saved in a draft along with writing and speaking.
+2. Drafts are validated against the current question bank before restoration; old drafts still work.
+3. Drafts are saved immediately when a choice or navigation button is used.
+4. Goethe start button indicates when a saved draft is available, and explains that the timer restarts.
+5. Exit confirmation accurately explains what is saved.
+6. Progress summary handles malformed imported values more defensively.
+7. Updated offline cache version and live announcement region.
+Limits: Goethe audio is browser TTS; writing/speaking are not automatically graded; 1350 conjugations not linguistically verified.

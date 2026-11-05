@@ -1,0 +1,9 @@
+QA CHECKLIST — V23 (manual browser checks pending)
+1. Start Goethe A1, answer two questions, reload. Confirm draft resumes with selected answers.
+2. Enter Schreiben and Sprechen, type, reload. Confirm both persist.
+3. Let timer run, exit, resume. Confirm remaining time, not a new 35 minutes.
+4. Confirm browser reload prompts while exam active; after finishing it should not prompt.
+5. Finish exam: verify result review displays your answer AND correct answer for each question.
+6. Check dark mode, sound mute, mobile layout, navigation, backup and progress after reload.
+7. Test offline after first online load, and verify unrelated GitHub Pages paths are unaffected.
+These steps have NOT been executed in a browser.

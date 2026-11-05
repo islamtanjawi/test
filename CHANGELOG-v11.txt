@@ -1,0 +1,1 @@
+V11: Backup import validates missing JSON records and rolls back partial writes on storage errors. Progress dashboard now shows reviewed Goethe mistakes and offers an offline CSV summary export. Existing keys remain unchanged. Browser E2E validation pending.

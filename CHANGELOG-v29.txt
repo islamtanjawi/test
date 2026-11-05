@@ -1,0 +1,1 @@
+V29: bounded malformed Goethe scores and counts in dashboard and CSV; finite coach session counts; validated conjugation progress objects; reject stale review words; bounded historical scores; refreshed offline cache.

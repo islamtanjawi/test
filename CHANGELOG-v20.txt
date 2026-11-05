@@ -1,0 +1,1 @@
+V20: coach review questions prioritize oldest due entries; invalid spaced-repetition step is normalized; backup preview validates JSON records before confirmation; progress scores are clamped for malformed historical records; offline cache version updated. All previous site data keys and pages preserved.
