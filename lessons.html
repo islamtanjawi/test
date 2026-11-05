@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+<script>try{var t=JSON.parse(localStorage.getItem("deutsch-ui")).theme;if(t)document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b766e">
+  <meta name="description" content="دروس ألمانية منظمة مع شرح عربي وأمثلة وتمارين تفاعلية من A1 إلى B1.">
+  <title>الدروس الألمانية | مدرّبي الألماني</title>
+  <link rel="stylesheet" href="lessons.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="index.html"><span class="brand-mark">DE</span><span><strong>مدرّبي الألماني</strong><small>مساحة الدروس</small></span></a>
+    <a class="back-link" href="conjugation.html">🔤 الصرف والتحويل</a><a class="back-link" href="practice.html">🎧 المهارات</a><a class="back-link" href="index.html">العودة إلى الصفحة الرئيسية <span>←</span></a>
+  </header>
+  <main class="layout">
+    <section class="hero">
+      <div class="hero-copy"><span class="eyebrow">LEARN · PRACTICE · REPEAT</span><h1>تعلّم الألمانية خطوة بخطوة</h1><p>دروس واسعة ومنظمة، شرح بالعربية، أمثلة مترجمة، جداول واضحة وتمارين مع تصحيح فوري.</p></div>
+      <div class="hero-progress"><div class="progress-head"><span>تقدمك في الدروس</span><strong id="progressText">0%</strong></div><div class="progress-track"><i id="progressBar"></i></div><small id="progressCount">0 من 64 درساً</small></div>
+    </section>
+    <div class="course-layout">
+      <aside class="sidebar">
+        <div class="sidebar-title"><div><span class="eyebrow">A1 · A2 · B1</span><h2>فهرس الدروس</h2></div><span class="count-pill" id="lessonCount">24</span></div>
+        <label class="search-wrap"><span>⌕</span><input id="search" type="search" placeholder="ابحث عن درس أو قاعدة..."></label>
+        <div class="level-row" role="group" aria-label="اختيار المستوى"><button class="level-filter active" data-level="all">كل المستويات</button><button class="level-filter" data-level="A1">A1</button><button class="level-filter" data-level="A2">A2</button><button class="level-filter" data-level="B1">B1</button></div>
+        <div class="filter-row" role="group" aria-label="تصفية الدروس"><button class="filter active" data-filter="all">الكل</button><button class="filter" data-filter="grammar">القواعد</button><button class="filter" data-filter="skills">التواصل</button></div><button class="exam-entry" id="examEntry">📝 اختبارات المستويات</button>
+        <div id="lessonList" class="lesson-list"></div>
+        <div class="sidebar-resource"><strong>🎧 مصادر مساعدة</strong><a href="https://www.youtube.com/watch?v=6ht-uuPfESQ&list=PLupCC3-l-BjgFbA8B0K-chhh_zenO4nni" target="_blank" rel="noopener">قائمة فيديوهات 1 ↗</a><a href="https://www.youtube.com/watch?v=d4y3apjDO10&list=PLb4LszRKRuSHBbEHGYi8GJHaBAxwYhSnc" target="_blank" rel="noopener">قائمة فيديوهات 2 ↗</a><a href="https://www.lernlaterne.de/ar/almaniyya/qusus-a1" target="_blank" rel="noopener">قصص ألمانية A1 ↗</a></div>
+      </aside>
+      <section id="lessonPanel" class="lesson-panel" aria-live="polite"></section>
+    </div>
+    <section class="vocab-map">
+      <div><span class="eyebrow">WORTSCHATZ</span><h2>موضوعات المفردات والتواصل</h2><p>توزيع موضوعات الكتب على وحدات عملية للمراجعة والقراءة والكتابة.</p></div>
+      <div class="topic-grid">
+        <article><span>01</span><h3>الأشخاص والعائلة</h3><p>التعارف، البيانات الشخصية، الأسرة والأصدقاء.</p></article>
+        <article><span>02</span><h3>الجسم والصحة</h3><p>أجزاء الجسم، الأعراض، الطبيب والروتين اليومي.</p></article>
+        <article><span>03</span><h3>السكن والمنزل</h3><p>الغرف، الأثاث، الأشياء والأعمال المنزلية.</p></article>
+        <article><span>04</span><h3>الطبيعة والطقس</h3><p>الفصول، الأشهر، الطقس والنباتات والحيوانات.</p></article>
+        <article><span>05</span><h3>السفر والتنقل</h3><p>المواصلات، الاتجاهات، المحطة والفندق والعطلة.</p></article>
+        <article><span>06</span><h3>الطعام والتسوق</h3><p>الأطعمة، المشروبات، المطعم، الكميات والملابس.</p></article>
+        <article><span>07</span><h3>الخدمات والحياة اليومية</h3><p>البريد، الهاتف، البنك، المواعيد والأرقام.</p></article>
+        <article><span>08</span><h3>الدراسة والعمل</h3><p>المدرسة، المواد الدراسية، المهن والعمل والتقنية.</p></article>
+      </div>
+    </section>
+
+  </main>
+  <footer>تعلم بهدوء، وراجع باستمرار، ولا تقلق من الأخطاء. 🇩🇪</footer>
+  <script src="ui.js"></script>
+<script src="lessons-advanced.js"></script>
+  <script src="lessons.js"></script>
+</body>
+</html>
